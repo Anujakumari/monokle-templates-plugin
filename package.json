@@ -1,0 +1,17 @@
+{
+	"name": "monokle-template-plugin",
+	"description": "Custom templates plugin",
+	"version": "1.0.0",
+	"author": "Anuja Kumari",
+	"repository": "https://github.com/Anujakumari/monokle-templates-plugin",
+	"monoklePlugin": {
+	  "id": "com.github.Anujakumari.plugin.templates.deployment-template",
+	  "helpUrl": "https://github.com/Anujakumari/monokle-templates-plugin",
+	  "modules": [
+		{
+		  "type": "template",
+		  "path": "deployment-template"
+		}
+	  ]
+	}
+}
