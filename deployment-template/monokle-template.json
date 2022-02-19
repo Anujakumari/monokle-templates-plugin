@@ -1,0 +1,24 @@
+{
+  "name": "Deployment",
+  "id": "com.github.Anujakumari.plugin.templates.deployment-template",
+  "author": "Anuja Kumari",
+  "version": "1.0.0",
+  "description": "Creates a Deployment for a specified Image",
+  "repository" : "",
+  "type": "vanilla",
+  "forms": [
+    {
+      "name": "Deployment Settings",
+      "description": "Specify the Image to deploy and related settings.",
+      "schema": "form-schema.json",
+      "uiSchema": "form-ui-schema.json"
+    }
+  ],
+  "manifests": [
+    {
+      "filePath": "template.yaml"
+    }
+  ],
+  "resultMessage": "Deployment created",
+  "helpUrl": "https://github.com/Anujakumari/monokle-templates-plugin"
+}
